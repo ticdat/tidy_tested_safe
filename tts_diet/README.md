@@ -25,6 +25,7 @@ We also include a very simple `setup.py` file, so that the `tts_diet` package ca
 * `tts_diet` The subdirectory that defines the `tts_diet` package.
 * `test_tts_diet` The subdirectory that contains data and code required for testing `tts_diet`.
 * `setup.py` Standard file for distributing `tts_diet`. Note that `gurobipy` is **not** specified as a requirement,
-             as `tts_diet` can still provide partial functionality in its absence.
+             as `tts_diet` can still provide partial functionality in its absence. Deliberately creating a very
+             thin `setup.py` for demonstration purposes.
 
 
