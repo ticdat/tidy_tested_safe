@@ -14,5 +14,5 @@ The guide to all the repos in the ticdat organization are as follows.
 flow problem developed as a "Tidy Tested Safe" repo. The problem is developed incrementally to demonstrate 
 an Agile workflow. The first release tag solves the simpler, one commodity problem. This release bootstraps the 
 solution to the multi-commodity problem.
-* `tts_netflow_b`  Similar to `tts_netflow_a`. Demonstrates a pipeline to munge the data 
-into a more mathematical format, and introduces optimization code only in the third release tag.
+* `tts_netflow_b`  Similar to `tts_netflow_a`. [Demonstrates](https://github.com/ticdat/tts_netflow_b) a pipeline to 
+munge the data into a more mathematical format, and introduces optimization code only in the third release tag.
