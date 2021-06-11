@@ -1,8 +1,8 @@
 Files provided.
 
-* `tts_scnd.py` - same as `first_release\tts_scnd.py`, except bi-directional row predicate 
+* `tts_scnd.py` - same as `release_0_0_1\tts_scnd.py`, except bi-directional row predicate 
 check added.
-* `tts_scnd_pd.py`  - same as `first_release\tts_scnd_pd.py`, except bi-directional row predicate 
+* `tts_scnd_pd.py`  - same as `release_0_0_1\tts_scnd_pd.py`, except bi-directional row predicate 
 check added.
 
 Your repository for this release.
