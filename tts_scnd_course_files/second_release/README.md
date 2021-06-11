@@ -16,4 +16,5 @@ Your repository for this release.
     is thrown, and also that the thrown exception is the `"data row check"`. It's fine 
     to convert the exception to a string after you capture it ... everything in Python can be converted
     to a string.
-* Don't lose the test from the first release. 
+* Don't lose the test from the first release.
+* Tag and `__version__` to be "0.0.2". 
