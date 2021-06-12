@@ -8,6 +8,7 @@ Your repository for this release.
 
 * Extend the `solve` function to implement the 5 new parameters. (Don't use true equality checking below, only check
 4 most significant digits).
+* Extend the unit tests to test this new functionality.
   * Test "Maximum Individual Service Distance" like this.
     * Solve the "MIP_for_9_City_Example.json" data set.
     * Validate that the "Average Service Distance" of this solution is 36.57.
