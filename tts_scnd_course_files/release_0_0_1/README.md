@@ -10,8 +10,10 @@ Your repository for this release.
 
 * `tts_scnd` repository that implements `tts_scnd` package.
 * Your `test_tts_scnd` directory implements unit tests for `tts_scnd`.
-* Your single unit test her validates that `tts_scnd.solve`, when run with the data in 
+* Your single unit test validates that `tts_scnd.solve`, when run with the data in 
 `MIP_for_9_City_Example.json`, doesn't throw any asserts. Since you can assume your unit 
 tests are being run with asserts enabled, all you need to do is call `tts_scnd.solve(dat)`, 
 where `dat` is created from `MIP_for_9_City_Example.json`.
+* Your `notebooks` directory includes a notebook that converts `MIP_for_9_City_Example.json` to an
+Excel file or a directory of csv files. This is so a user can interact more naturally with your sample data.
 * Tag and `__version__` to be "0.0.1".

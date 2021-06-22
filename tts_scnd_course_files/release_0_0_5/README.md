@@ -20,6 +20,9 @@ Your repository for this release.
   * If you need a demonstration of how to forward convert testing data, please study the 
   [tts_netflow_a](https://github.com/ticdat/tts_netflow_a) and 
   [tts_netflow_b](https://github.com/ticdat/tts_netflow_b) repos.
+  * Your repo needs to include the code you used to forward convert the testing data. This can be a notebook
+  in a `notebooks` directory (as demonstrated in the `tts_netflow_` repos referenced above) or as code
+  somewhere in the `test_tts_scnd` directory.
 * Extend the unit tests to test the new functionality.
   * Solve the "LargeScale3Location.json" file, except with every city having a Max Assignment Capacity
   of 823400. 
