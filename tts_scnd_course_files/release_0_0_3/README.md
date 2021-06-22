@@ -9,7 +9,7 @@ Your repository for this release.
 * Extend the `solve` function to actually solve the problem, using `gurobipy` or equivalent.
   * Solve tests that use `MIP_for_9_City_Example`.
     * The optimal solution when solving  should have a total cost within 0.1% of
-  552775000.
+  5.5277e8.
     * The total cost is the same even after removing the "Atlanta" to "Charlotte" record from the 
   `dat` object and re-solving.
     * If you remove both the "Atlanta" to "Charlotte" record and the "Charlotte" to "Atlanta" record
