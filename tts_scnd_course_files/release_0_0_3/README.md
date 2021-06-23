@@ -13,7 +13,7 @@ Your repository for this release.
     * The total cost is the same even after removing the "Atlanta" to "Charlotte" record from the 
   `dat` object and re-solving.
     * If you remove both the "Atlanta" to "Charlotte" record and the "Charlotte" to "Atlanta" record
-  and re-solve, then the total cost should be larger than  `1.01*552775000`.
-  *  The total cost when solving from `LargeScale3Location.json` should be within 0.1% of 591087305.
+  and re-solve, then the total cost should be larger than  `1.01*5.5277e8`.
+  *  The total cost when solving from `LargeScale3Location.json` should be within 0.1% of 5.9109e8.
 * Don't lose the tests from the second release.
 * Tag and `__version__` to be "0.0.3".   
