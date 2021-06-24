@@ -43,6 +43,22 @@ Here is a summary of the 0.0.5->0.0.6 forward conversion logic.
    * Create a customer with the same name.
      * Create a demand record for the customer you just created and product `"P"` with a demand the
    same as the cities record.
+ * For each record of the distances table.
+   * Create matching record in the `warehouse_to_customer_distances` table with the same source, 
+   destination and distance.
+   * Create a record in `warehouse_to_customer_costs` table with the same source and destination, 
+   with the product `"P"`, and with cost of zero.
+   * Because the 0.0.5 `solve` enforced bi-directionally on the distances table, and the
+   0.0.6 `solve` does no such thing, we need to create the same two new records again for 
+   `warehouse_to_customer_distances` and `warehouse_to_customer_costs`, except with source and 
+   destination reversed. 
+ * For each pair of cities, create a `plant_to_warehouse_costs` record with cost of zero.
+ * This was all fairly involved, so don't forget to look for 0.0.6 foreign key failures, 
+ data type failures, and data row failures before overwriting. 
+ 
+### Full sequence of  100_big_cities.json tests
 
+
+ 
    
 `
