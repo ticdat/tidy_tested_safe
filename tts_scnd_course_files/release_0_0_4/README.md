@@ -6,6 +6,9 @@ Files provided.
 
 Your repository for this release.
 
+* Extend the `solve` function so that the solution reports on two KPIs in the `parameters` solution table.
+  * "Percent High Service Demand" - the percentage of demand thats fulfilled with high service.
+  * "Average Service Distance" - the average service distance (weighted by demand).
 * Extend the `solve` function to implement the 5 new parameters. (Don't use true equality checking below, only check
 4 most significant digits).
 * Extend the unit tests to test this new functionality.
