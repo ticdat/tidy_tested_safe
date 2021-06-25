@@ -15,6 +15,9 @@ Your repository for this release.
     Be careful to write the check in such a way that the unit test validates that the exception
     is thrown, and also that the thrown exception is the `"data row check"`. It's fine 
     to convert the exception to a string after you capture it ... everything in Python can be converted
-    to a string.
+    to a string. See [here](https://github.com/ticdat/tts_netflow_b/blob/master/test_tts_netflow_b/test_tts_netflow_b.py)
+    and [here](https://github.com/ticdat/tts_netflow_a/blob/main/test_tts_netflow_a/test_tts_netflow_a.py)
+    for examples of unit tests that validate data integrity checks.
+
 * Don't lose the test from the first release.
 * Tag and `__version__` to be "0.0.2". 
