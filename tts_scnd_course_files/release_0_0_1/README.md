@@ -9,8 +9,8 @@ beyond validating input data.
 Your repository for this release. (Look [here](https://github.com/ticdat/tts_diet), 
 [here](https://github.com/ticdat/tts_netflow_a) and [here](https://github.com/ticdat/tts_netflow_b) for examples).
 
-* `tts_scnd` repository that implements `tts_scnd` package.
-* Your `test_tts_scnd` directory implements unit tests for `tts_scnd`.
+* `tts_scnd` directory that implements `tts_scnd` package.
+* Your `test_tts_scnd` directory contains unit tests code and testing data for `tts_scnd`.
 * Your single unit test validates that `tts_scnd.solve`, when run with the data in 
 `MIP_for_9_City_Example.json`, doesn't throw any asserts. Since you can assume your unit 
 tests are being run with asserts enabled, all you need to do is call `tts_scnd.solve(dat)`, 

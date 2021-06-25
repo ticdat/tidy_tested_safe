@@ -6,7 +6,9 @@ Files provided.
  Your repository for this release. 
  
  * Implement the new `solve` function.
-   * Details in chapter 10.
+   * The solution parameters table should report on three KPIs - "Percent High Service Demand",
+   "Total Cost" and "Average Service Distance".
+   * More details in chapter 10.
  * Forward convert the testing data. 
    * Details on the forward conversion logic farther down.
    * Both `LargeScale3Location.json` and `MIP_for_9_City_Example.json` should forward convert.
@@ -57,8 +59,27 @@ Here is a summary of the 0.0.5->0.0.6 forward conversion logic.
  data type failures, and data row failures before overwriting. 
  
 ### Full sequence of  100_big_cities.json tests
-
-
- 
+* Solution from the original data set.
+  * The total cost should be within 0.1% of 7.834e5.
+  * Both Carmel and Wilmington should be among the warehouses opened.
+* Edit the original data set so that Carmel and Wilmington both have Max Assignment Capacity
+of 40000 and re-solve.
+  * The total cost should now be within 0.1% of 8.0591e5.
+  * Carmel should be among the warehouses opened with an Assignment Volume larger than 39900.
+* Retaining the previous edits, set the supply of Trenton for each product to be 20000 and
+re-solve.
+  * The total cost should now be within 0.1% of 8.1226e5.
+  * The average service distance should be greater than 375.
+  * Carmel should be among the warehouses opened with an Assignment Volume larger than 39900.
+  * Trent should produce between  19000 and 20000 units for every product.
+* Retaining the previous edits, set the Maximum Average Service Distance parameter to be 375 and re-solve.
+  * The total cost should now be within 0.1% of 8.1346e5.
+  * The average service distance should be no greater than 375.
+  * Carmel should be among the warehouses opened with an Assignment Volume smaller than 39900.
+* Retaining the previous edits, set the Warehouse Volume of p1 to be 10 and re-solve.
+  * The total cost should now be within 0.1% of 8.4463e5.
+  * Carmel should be among the warehouses opened with an Assignment Volume larger than 39900.
+ * All these edits should be in memory, as part of the `test` subroutine. You should only have one copy
+ of the `100_big_cities.json ` file in the repository.
    
 `
