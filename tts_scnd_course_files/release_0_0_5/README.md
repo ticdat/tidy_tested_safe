@@ -11,7 +11,7 @@ Your repository for this release.
 
 * Extend the `solve` function to implement the Max Assignment Capacity constraint for each city.
   * Specifically, if cities *a*, *b*, and *c* are assigned to city *d*, then the sum total demand 
-  of *a*, *b* and *d* can't exceed the Max Assignment Capacity of *d*. 
+  of *a*, *b* and *c* can't exceed the Max Assignment Capacity of *d*. 
 * Forward convert the testing data. 
   * That is to say, the data sets archived for the 0.0.4 release don't have the "Max Assignment Capacity"
   field as part of the cities table. Add this field to the cities table for all of the archived data 
