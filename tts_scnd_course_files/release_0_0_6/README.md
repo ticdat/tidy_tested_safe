@@ -16,7 +16,7 @@ Files provided.
    * The `try/except` test you added in release 0.0.2 is no longer relevant, as the lane tables aren't
    bi-directionally safe.
    * **Don't** retain the test that the `MIP_for_9_City_Example` total cost solution is the 
-   same even after removing "Atlanta" to "Charlotte". It's no longer relevant since there the warehouse 
+   same even after removing "Atlanta" to "Charlotte". It's no longer relevant since  the warehouse 
    to customer tables aren't bi-directionally safe.
    * All the other tests carry forward in a straightforward way.
      * The test you added in release 0.0.3 that involved removing both "Atlanta" to "Charlotte" and 
@@ -50,11 +50,12 @@ Here is a summary of the 0.0.5->0.0.6 forward conversion logic.
    destination and distance.
    * Create a record in `warehouse_to_customer_costs` table with the same source and destination, 
    with the product `"P"`, and with cost of zero.
-   * Because the 0.0.5 `solve` enforced bi-directionally on the distances table, and the
-   0.0.6 `solve` does no such thing, we need to create the same two new records again for 
+   * Because the 0.0.5 `solve` reads the distances table bi-directionally, and the
+   0.0.6 `solve` does no such thing, we might need need to create the same two new records again for 
    `warehouse_to_customer_distances` and `warehouse_to_customer_costs`, except with source and 
-   destination reversed. 
- * For each pair of cities, create a `plant_to_warehouse_costs` record with cost of zero.
+   destination reversed. This additional step is required only if doing so will not create a duplicate row.
+ * For each pair of cities, create a corresponding  `plant_to_warehouse_costs` record with with product 
+ set to `"P"` and cost set to zero.
  * This was all fairly involved, so don't forget to look for 0.0.6 foreign key failures, 
  data type failures, and data row failures before overwriting. 
  
