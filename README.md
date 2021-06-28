@@ -1,13 +1,16 @@
 # tidy_tested_safe
 Tidy, Tested, Safe  training materials.
 
-This repo is deliberately very thin. Mostly it will contain wiki pages. 
+This repo is deliberately very thin. 
 
-The guide to all the repos in the ticdat organization are as follows.
+The `tts_scnd_course_files` directory has the all the files you need to build the 6 releases
+of the `tts_scnd` package. This is the coursework for the Tidy Tested Safe course.
+
+A partial guide to the repos in the ticdat organization are as follows.
 
 * `ticdat` This is the repo for development of the `ticdat` [package](https://pypi.org/project/ticdat/)
 * `tidy_tested_safe` A largely code-free repo that holds the "Tidy Tested Safe" 
-[wiki](https://github.com/ticdat/tidy_tested_safe/wiki).
+[wiki](https://github.com/ticdat/tidy_tested_safe/wiki) and coursework sample files.
 * `tts_diet` A [demonstration](https://github.com/ticdat/tts_diet) of the standard diet example hosted as a 
 "Tidy Tested Safe" repo.
 * `tts_netflow_a`  A [demonstration](https://github.com/ticdat/tts_netflow_a) of the multi-commodity network
