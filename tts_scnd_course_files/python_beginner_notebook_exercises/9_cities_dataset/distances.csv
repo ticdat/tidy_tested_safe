@@ -1,0 +1,82 @@
+Source,Destination,Distance
+Boston,Boston,0
+Atlanta,Atlanta,0
+New York,New York,0
+St. Louis,St. Louis,0
+Detroit,Detroit,0
+Cincinnati,Cincinnati,0
+Pittsburgh,Pittsburgh,0
+Charlotte,Charlotte,0
+Chicago,Chicago,0
+Atlanta,Chicago,720
+New York,Chicago,790
+St. Louis,Chicago,297
+Detroit,Chicago,283
+Cincinnati,Chicago,296
+Pittsburgh,Chicago,461
+Charlotte,Chicago,769
+Boston,Chicago,996
+Chicago,Atlanta,720
+New York,Atlanta,884
+St. Louis,Atlanta,555
+Detroit,Atlanta,722
+Cincinnati,Atlanta,461
+Pittsburgh,Atlanta,685
+Charlotte,Atlanta,245
+Boston,Atlanta,1099
+Chicago,New York,790
+Atlanta,New York,884
+St. Louis,New York,976
+Detroit,New York,614
+Cincinnati,New York,667
+Pittsburgh,New York,371
+Charlotte,New York,645
+Boston,New York,219
+Chicago,St. Louis,297
+Atlanta,St. Louis,555
+New York,St. Louis,976
+Detroit,St. Louis,531
+Cincinnati,St. Louis,359
+Pittsburgh,St. Louis,602
+Charlotte,St. Louis,715
+Boston,St. Louis,1217
+Chicago,Detroit,283
+Atlanta,Detroit,722
+New York,Detroit,614
+St. Louis,Detroit,531
+Cincinnati,Detroit,263
+Pittsburgh,Detroit,286
+Charlotte,Detroit,629
+Boston,Detroit,721
+Chicago,Cincinnati,296
+Atlanta,Cincinnati,461
+New York,Cincinnati,667
+St. Louis,Cincinnati,359
+Detroit,Cincinnati,263
+Pittsburgh,Cincinnati,288
+Charlotte,Cincinnati,479
+Boston,Cincinnati,907
+Chicago,Pittsburgh,461
+Atlanta,Pittsburgh,685
+New York,Pittsburgh,371
+St. Louis,Pittsburgh,602
+Detroit,Pittsburgh,286
+Cincinnati,Pittsburgh,288
+Charlotte,Pittsburgh,448
+Boston,Pittsburgh,589
+Chicago,Charlotte,769
+Atlanta,Charlotte,245
+New York,Charlotte,645
+St. Louis,Charlotte,715
+Detroit,Charlotte,629
+Cincinnati,Charlotte,479
+Pittsburgh,Charlotte,448
+Boston,Charlotte,867
+Chicago,Boston,996
+Atlanta,Boston,1099
+New York,Boston,219
+St. Louis,Boston,1217
+Detroit,Boston,721
+Cincinnati,Boston,907
+Pittsburgh,Boston,589
+Charlotte,Boston,867
