@@ -4,9 +4,10 @@ Tidy, Tested, Safe  training materials.
 This repo is deliberately very thin. 
 
 The `tts_scnd_course_files` directory has the all the files you need to build the 6 releases
-of the `tts_scnd` package. This is the coursework for the Tidy Tested Safe course.
+of the `tts_scnd` package. This is the coursework for the Tidy Tested Safe course. The Tidy Tested Safe 
+course is in the **Tidy_Tested_Safe_Book.pdf** file in this repo.
 
-A partial guide to the repos in the ticdat organization are as follows.
+A partial guide to various repos in the [ticdat](https://github.com/ticdat) **organization**  are as follows.
 
 * `ticdat` This is the repo for development of the `ticdat` [package](https://pypi.org/project/ticdat/)
 * `tidy_tested_safe` A largely code-free repo that holds the "Tidy Tested Safe" 
